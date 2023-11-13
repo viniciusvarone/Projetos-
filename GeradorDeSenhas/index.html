@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=EB+Garamond&family=Heebo&family=Lato&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="Css/style.css"/>
+
+</head> 
+<body>
+    <div id="container-registro">
+        <div id="banner">
+            <div id="camada-banner">
+                <h1 id="titulo">Seja <br>bem-vindo</h1>
+            </div>
+        </div>
+        <div id="form">
+            <div id="topo">
+                <h1>Crie sua conta:</h1>
+                <p>Registre-se para utilizar todas as funcionalidades do sistema</p>
+            </div>
+            <div class="campos">
+                <label for="campo_nome">Nome</label>
+                <input id="campo_nome" type="text" placeholder="Digite seu nome">
+            </div>
+            <div class="campos">
+                <label for="campo_email">Email</label>
+                <input id="campo_email" type="email" placeholder="Digite seu email">
+            </div>
+            <div class="campos">
+                <label for="campo_senha">Senha</label>
+                <input id="campo_senha" type="password" placeholder="Digite sua senha">
+            </div>
+            <div id="paragrafo">
+                <p id="sugest">Quer uma sugestão de senha segura? <span id="gerador-de-senha">Clique aqui.</span></p>
+            </div>
+            <div id="senha-gerada">
+                <p>Aqui está sua senha: </p>
+                <h4></h4>
+            </div>
+            <div class="campos">
+                <label for="campo_confirmacao">Confirmação de senha</label>
+                <input id="campo_confirmacao" type="password" placeholder="Confirme sua senha">
+            </div>
+            <div id="bot">
+            <button id="botao">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
